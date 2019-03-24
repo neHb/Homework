@@ -12,7 +12,8 @@ namespace Petzold.CalculateYourLife
         [STAThread] public static void Main()
         {
             Application app = new Application();
-            app.Run(new CalculateYourLife()); }
+            app.Run(new CalculateYourLife());
+        }
         public CalculateYourLife()
         {
             Title = "Calculate Your Life";//объявляет и присваивает заголовок 
