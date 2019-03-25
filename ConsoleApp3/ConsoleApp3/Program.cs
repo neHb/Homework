@@ -78,7 +78,7 @@ namespace Petzold.CalculateYourLife
             {
                 int iYears = dtEnd.Year - dtBeg.Year;
                 int iMonths = dtEnd.Month - dtBeg .Month;
-                int iDays = dtEnd.Day - dtBeg.Day;
+                int iDays = dtEnd.Day - dtBeg.Day;  
                 if (iDays < 0)
                 {
                     iDays += DateTime.DaysInMonth (dtEnd.Year,     
